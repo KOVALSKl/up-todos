@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/up-todos/static/css/main.c532f7ed.css",
+    "main.js": "/up-todos/static/js/main.29010751.js",
+    "static/js/787.946bd377.chunk.js": "/up-todos/static/js/787.946bd377.chunk.js",
+    "static/media/add-icon.svg": "/up-todos/static/media/add-icon.bff2a0bf3350649d752cec57afeda047.svg",
+    "index.html": "/up-todos/index.html",
+    "main.c532f7ed.css.map": "/up-todos/static/css/main.c532f7ed.css.map",
+    "main.29010751.js.map": "/up-todos/static/js/main.29010751.js.map",
+    "787.946bd377.chunk.js.map": "/up-todos/static/js/787.946bd377.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c532f7ed.css",
+    "static/js/main.29010751.js"
+  ]
+}
