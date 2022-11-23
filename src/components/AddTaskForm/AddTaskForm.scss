@@ -1,0 +1,22 @@
+.add-task-form {
+    & {
+        padding: 10px;
+
+        background-color: #fff;
+
+        display: flex;
+        flex-direction: column;
+
+        width: 300px;
+    }
+
+    & .description-input textarea {
+        display: flex;
+        flex-direction: column;
+
+        resize: vertical;
+
+        max-height: 150px;
+        width: 100%;
+    }
+}

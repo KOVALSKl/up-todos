@@ -1,0 +1,82 @@
+.task-item {
+    & {
+        padding: 15px;
+
+        border: 0.5px solid #000000;
+        border-radius: 10px;
+    }
+
+    & .container,
+    & .container .content {
+        display: flex;
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+    & .title-container {
+        & {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            position: relative;
+
+            margin-bottom: 10px;
+        }
+
+        & .title {
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        & .title .status {
+            & {
+                font-size: 13px;
+            }
+
+            &.completed {
+                color: rgba(0, 200, 0, 0.5);
+            }
+
+            &.overdue {
+                color: rgba(255, 0, 0, 0.5);
+            }
+
+            &.in-progress {
+                color: rgba(0, 0, 0, 0.5);
+            }
+        }
+
+        & .date {
+            position: absolute;
+
+            font-size: 12px;
+            color: rgba(0, 0, 0, 0.4);
+
+            left: 0px;
+            top: 21px;
+        }
+
+        & .complete-task-checkbox {
+            transform: scale(1.5);
+        }
+    }
+
+    & .section .title {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    & .description .body {
+        word-wrap: break-word;
+    }
+
+    & .attached-files {
+        & ul {
+            padding: 0;
+
+            list-style-type: none;
+        }
+    }
+}

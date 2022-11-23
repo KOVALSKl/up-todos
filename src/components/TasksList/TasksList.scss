@@ -1,0 +1,17 @@
+.task-list {
+    & {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        list-style-type: none;
+
+        padding: 0;
+    }
+
+    & li {
+        width: 350px;
+    }
+}
